@@ -1,0 +1,12 @@
+<html>
+<head><title>contact-us</title></head>
+<body>
+<h1>Contact-us</h1>
+	<a href="../index.html" >HOME</a>
+	<a href="./about.html" >About</a>
+	<a href="./information/info.html">Information</a>
+
+
+
+
+</body>

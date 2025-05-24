@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment-form</title>  
+</head>
+<body>
+    <center><h2><u>MALIK ALIYAN</u></h2></center>
+    <h3>SMIT-ENROLLMENT-FORM</h3>
+
+   <form action="/submit" method="get">
+    <label for="name">First Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="fullname" maxlength="6" minlength="2" placeholder="Enter Your First Name" required name="First"></label>
+        <br>
+        <br>
+    <label for="lastname">Last Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;&nbsp;&nbsp;
+        <input  type="text" maxlength="6" minlength="2" required placeholder="Enter Your Last Name"></label>
+        <br>
+        <br>
+    <label for="date">Date Of Birth &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="date" placeholder="Enter your Date of Birth" id="date" name="date" required>
+    </label>
+        <br>
+        <br>
+    <label for="email">Email ID &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" id="email" placeholder="Enter Your Email ID" required="@gmail.com" name="email"></label>
+    </label>
+        <br>
+        <br>
+    <label for="pass">Password &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="password" id="pass" name="pass" minlength="8" placeholder="Enter Your Password" required>
+    </label>
+        <br>
+        <br>
+    <label for="phone">Mobile Number &nbsp;: &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" maxlength="11" minlength="11" placeholder="Enter Your Number" id ="phone" name="phone" required></label>
+    </label>
+        <br>
+        <br>
+    <label for="gender" >Gender &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="radio" name="gender" value="Male" >Male
+        <input type="radio" name="gender" value="Female">Female  
+      <input type="radio" name="gender" value="custom">Custom  
+    </label>
+    <br>
+    <br>
+    <select name="Country" required>
+        <option value="" disabled selected>Select Your Country</option>
+        <option value="" >Pakistan</option>
+        <option value="" >America</option>
+        <option value="">England</option>
+    </select>
+    <br>
+    <br>
+    <input  type="submit"> &nbsp;&nbsp;&nbsp;<input type="reset">
+    </form>
+</body>
+</html>

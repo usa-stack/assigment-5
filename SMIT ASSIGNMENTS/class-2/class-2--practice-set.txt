@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>Class-2--Practice_set</title>
+</head>
+<body>
+	<center><h1><u>MALIK ALIYAN</u></h1></center>
+	
+	<h1>This is the main Heading</h1>
+	<h2>This is the sub Heading</h2>
+	<h3>This is the another sub Heading</h3>
+	<h4>This is the another sub Heading</h4>
+	<h5>This is the 2<sup>nd</sup>smallest Heading</h5>
+	<h6>This is the smallest Heading</h6>
+
+	<p>This is a paragraph tag use to display text and content</p>
+	<br />
+	<p>This is a <b>Bold</b> tag</p>
+	<p>This is an <i>italic</i> tag</p>
+	<p>This is an <u>underline</u> tag</p>
+	<hr />
+	<h2>Superscripts and subscripts :</h2>
+	<p>The superscipt element is used to contain characters such as powering the number like X<sup>2<sup></p>
+	<p>The subscript element is used to contain characters that should be subscripts. It is commonly used with Foot notes and chemical formulas. such as H<sub>2</sub>O!</p>
+	
+	<hr />
+	<h2>Semantic Markups :</h2>
+	<p><Strong>Strong</Strong> and <em>Emphasis</em> tag are the semantic tags</p>
+	<p>Strong tag is just same as <b>Bold</b> But the strong tag is a semantic markup uses for SEO!</p>
+	<p>Emphasis tag is also same as <i>italic</i> But the emphasis tag is semantic markup that uses for SEO!</p>
+
+
+	<dt><h3>Lists In HTML:</h3></dt>
+	<dd>
+		<ul>
+		<li>Unordered lists <q>ul</q> [Bullets]!
+			<ul>
+				<li>Unordered Lists uses Bullets.</li>
+				<li>Square bullets in some Browsers.</li>
+			</ul>
+			<br />
+		</li>
+			<li>Ordered lists <q>ol</q> [Numbers]!
+			<ul>
+				<li>Uses Numbers.</li>
+				<li>Roman in some Browsers.</li>
+			</ul>
+			<br />
+
+			</li>
+			<li>Lists item <q>li</q> [lists]!
+			<ul>
+				<li>Uses in unordered lists.</li>
+				<li>uses in ordered lists. </li>
+			</ul>
+			<br />
+
+			</li>
+			<li>Definition lists <q>dl</q> for Defintion!
+			<ul>
+				<li>Uses two tags.</li>
+				<li> <q>dt</q> tag for definition terms.</li>
+				<li>Uses <q>dd</q> for Definition.</li>
+			</ul>
+			 </li>
+		</ul>
+	</dd>
+	
+
+</body>
+</html>

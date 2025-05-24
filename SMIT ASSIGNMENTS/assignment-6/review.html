@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Section.</title>
+</head>
+<body>
+    <center>
+        <table>
+            <tr>
+                <td bgcolor="#75D4B1">Account</td>
+                <td bgcolor="#75D4B1">Personal details.</td>
+                <td bgcolor="#75B1D3">Your Review.</td>
+            </tr>
+        </table>
+    </center>
+    <fieldset>
+        <legend>Your Review:</legend>
+        <form action="/submit" method="get">
+            <label for="hear">How did you hear about us?</label>
+            <select name="hear" required >
+                <option value="" selected disabled>Select your option.</option>
+                <option value="Good">Good</option>
+                <option value="Fair">Fair</option>
+                <option value="Bad">Bad</option>
+            </select>
+            <br>
+            <br>
+            <label for="visit">Would You Visit Again?</label> <br>
+            <input type="radio" name="visit" value="Yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="visit" value="No">
+            <label for="no">No</label>
+            <input type="radio" name="visit" value="mightbe">
+            <label for="mightbe">Might Be</label>
+            <br>
+            <br>
+            <label for="comment">Comments :</label><br>
+            <textarea name="comment" placeholder="Enter Your Comment Here...." required></textarea>
+            <br>
+            <br>
+            <label for="doc">Documents :</label> <br>
+            <input type="file" name="doc" value="Choose file." id="doc">
+            <br>
+            <br>
+            <input type="checkbox" name="Sign"  required>
+            <label for="Sign">Sign me up for email updates.</label>
+            
+            <br>
+            <a href="./personal.html"><img src="./Images/back.png" alt="back" width="100"></a>
+            <a href="./submit"><img src="./images/submit.png" alt="Submit" width="100"></a>
+
+
+
+        </form>
+    </fieldset>
+</body>
+</html>

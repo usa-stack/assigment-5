@@ -1,0 +1,17 @@
+<html>
+<head><title>About-page</title></head>
+<body>
+<h1>About-page</h1>
+	<a href="../index.html" >HOME</a>
+	<a href="./contact.html" >Contact</a>
+	<a href="./information/info.html">Information</a>
+
+
+</body>
+
+
+
+
+
+
+</html>
